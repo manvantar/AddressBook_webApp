@@ -31,7 +31,7 @@ body {
     font: normal normal bold 20px/25px Montserrat;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0px;
-    color: #008CFF;
+    color: blue;
     text-transform: capitalize;
 }
 
@@ -41,3 +41,42 @@ body {
 
 *{ box-sizing: border-box;}
 
+.form-content{
+    min-height: calc(100% -80px);
+    background-color:#f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grenn
+}
+
+.form{
+    width: 65%;
+    padding: 44px 60px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #f5f5ff;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-head{
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0px;
+    color:white;
+    background: #008CFF 0% 0% no-repeat padding-box;
+    text-transform: capitalize;
+    opacity: 1;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid green;
+
+}

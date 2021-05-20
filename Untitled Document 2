@@ -1,0 +1,42 @@
+https://xd.adobe.com/view/4cf380a2-4c9f-4018-b3c8-bf73e65a6c3d-19a0/screen/97736dde-b866-4026-9498-2132ae1df6c1/specs/
+Mentors Fellowship
+10:28 AM
+- Name Input Field must start with Capital Letter and
+must have at least 3 Characters
+- Address should have multiple words and each word
+should be at least 3 characters
+- Phone Number consists of either 10 numbers or 12
+numbers with country code or 13 numbers with +
+in the beginning. All Valid numbers 9009009001 or
+919009009001 or +91919009009001
+
+- Register Event Listeners to this
+
+
+UC3 - Input fields
+UC4 - Validations
+UC 5- Buttons
+Mentors Fellowship
+10:31 AM
+UC 6 - On clicking Submit
+Button to the
+following: - Define Address Book Contact JSON Object
+to capture the User Entry
+- Then as specified in next 2 Use Cases of
+Populating Address Book Class, adding
+UC 7- Populate the Address Book
+Contact Class and capture the
+user Entry using getters and
+setters
+- Ensure the Form Validations are also set in the
+setter methods of Name, Address and Phone
+Number
+
+- Define toString() method to Address Book
+UC 8- Ability to Add the Address
+Book Entry into an Address
+Book List and store it in
+Local Storage - Handle if it is the First Entry into the List
+else push it into the Array
+
+- Redirect to the Address Book Home Page
