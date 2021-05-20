@@ -25,7 +25,89 @@
                     <div class="form-head">PERSON ADDRESS BOOK</div>
                     <div class="cancel-button"> <img src="../assests/cancel_Button.png"> </div>
                 </div>
+                <div class="row-content">
+                    <label class="label text" for"name">Name</label><br>
+                    <input class="input" type="text" id="name" name="name" placeholder="Your name.." required><br>
+                    <error-output class="text-error" for="text"></error-output>
                 </div>
+                <div class="row-content">
+                    <label class="label text" for"phoneNUmber">Phone Number</label>
+                    <input class="input" type="text" id="phoneNUmber" name="phoneNUmber" placeholder="Your phoneNUmber"
+                        required>
+                    <error-output class="text-error" for="text"></error-output>
+                </div>
+                <div class="row-content">
+                    <label class="label text" for="notes">Address</label>
+                    <textarea id="notes" class="input" name="Notes" placeholder="" style="height:100px"></textarea>
+                </div>
+                <div class="row-content">
+                    <div>
+                        <label class="label text" for"state">State </label><br>
+                        <select id="state" name="state">
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chattisghad">Chattisghad</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Tamilnadu">Tamilnadu</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Punjab">Punjab</option>
+                        </select><br>
+                    </div>
+                    <div>
+                        <label class="label text" for"city">city</label><br>
+                        <select id="city" name="city">
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Surat">Surat</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Jaipur">Jaipur</option>
+                            <option value="Lucknow">Lucknow</option>
+                            <option value="Kanpur">Kanpur</option>
+                            <option value="Nagpur">Nagpur</option>
+                            <option value="Indore">Indore</option>
+                            <option value="Thane">Thane</option>
+                            <option value="Bhopal">Bhopal</option>
+                            <option value="Coimbatore">Coimbatore</option>
+                            <option value="Visakhapatnam">Visakhapatnam</option>
+                            <option value="Pimpri-Chinchwad">Pimpri-Chinchwad</option>
+                            <option value="Patna">Patna</option>
+                            <option value="Vadodara">Vadodara</option>
+                            <option value="Ghaziabad">Ghaziabad</option>
+                            <option value="Ludhiana">Ludhiana</option>
+                            <option value="Agra">Agra</option>
+                            <option value="Nashik">Nashik</option>
+                            <option value="Ranchi">Ranchi</option>
+                            <option value="Faridabad">Faridabad</option>
+                            <option value="Meerut">Meerut</option>
+                            <option value="Rajkot">Rajkot</option>
+                            <option value="Kalyan-Dombivli">Kalyan-Dombivli</option>
+                        </select><br>
+                    </div>
+    
+                    <div class="row-content">
+                        <label class="label text" for"city">PINCODE</label>
+                        <input class="input" type="text" id="pincode" name="pincode" placeholder="Your pincode" required>
+                        <error-output class="text-error" for="text"></error-output>
+                    </div>
+                </div>
+    
+                <div class="buttonParent">
+                    <div class="submit-reset">
+                        <button type="add" id="add" class="button addButton">Add</button>
+                        <button type="reset" id="reset" class="resetButton button">Reset</button>
+                    </div>
+                </div>
+           
         </form>
     </div>
 </body>
